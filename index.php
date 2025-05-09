@@ -9,12 +9,16 @@
         <header>
             <ul>
                 <li>
-                    <a href="#">HOME ho</a>
+                    <a href="#">HOME</a>
                 </li>
                 <li>
                     <a href="#">会社概要</a>
                 </li>
             </ul>
         </header>
+        <main>coming soon...</main>
+        <footer>
+            <small>&copy; 2025 dosa</small>
+        </footer>
     </body>
 </html>
