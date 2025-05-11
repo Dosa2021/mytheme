@@ -11,10 +11,10 @@
         <header>
             <ul>
                 <li>
-                    <a href="#">HOME</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">会社概要</a>
+                    <a href="#">Profile</a>
                 </li>
             </ul>
         </header>
