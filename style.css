@@ -7,16 +7,28 @@ Description:
 Version: 1.0
 */
 
+* {
+    color: #111111;
+}
+
 /* ヘッダ */
 header {
     position: fixed;
-    padding: 20px;
+    display: flex;
+    padding: 35px 50px;
 }
 header ul {
     display: flex;
 }
 header li {
     margin-right: 20px;
+}
+header a {
+    font-family: serif;
+    font-size: 13px;
+}
+header a:hover {
+    color: #ddd;
 }
 
 /* メイン・コンテンツ */
@@ -29,10 +41,12 @@ main {
     padding-top: 108.4px;
 }
 main h1 {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    margin-top: 200px;
+    margin-bottom: 270px;
 }
 .pickup {
-    padding: 50px 20px;
+    padding: 50px 50px;
 }
 .pickup ul {
     display: flex;
