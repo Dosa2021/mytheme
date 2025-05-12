@@ -59,3 +59,9 @@ main h1 {
 .single p {
     padding: 15px;
 }
+
+/* 固定ページ */
+.page {
+    text-align: center;
+    padding-top: 58.4px;
+}
