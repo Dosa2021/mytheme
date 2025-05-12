@@ -46,6 +46,54 @@
                         <p>hogehoge</p>
                         <a href="#">続きを読む</a>
                     </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
+                    <li>
+                        <img src="<?= get_template_directory_uri(); ?>/img/main_nagano3.jpg" alt="">
+                        <h2>Title</h2>
+                        <p>hogehoge</p>
+                        <a href="#">続きを読む</a>
+                    </li>
                 </ul>
             </div>
         </main>
