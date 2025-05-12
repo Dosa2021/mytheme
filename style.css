@@ -7,7 +7,9 @@ Description:
 Version: 1.0
 */
 
+/* ヘッダ */
 header {
+    position: fixed;
     padding: 20px;
 }
 header ul {
@@ -17,6 +19,30 @@ header li {
     margin-right: 20px;
 }
 
+/* メイン・コンテンツ */
 main, footer {
     text-align: center;
+}
+
+main {
+    padding: 50px 0px;
+    padding-top: 108.4px;
+}
+main h1 {
+    letter-spacing: 3px;
+}
+.pickup {
+    padding: 50px 20px;
+}
+.pickup ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pickup li {
+    width: 30%;
+    margin-bottom: 30px;
+}
+.pickup li img {
+    width: 100%;
 }
