@@ -115,10 +115,35 @@ main h1 {
     padding: 15px;
 }
 
-/* 固定ページ */
-.page {
+/* profileページ */
+.profile {
     text-align: center;
-    padding-top: 58.4px;
+    padding: 58.4px 50px;
+}
+.profile h2 {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 40px;
+}
+.profile .introduction {
+    display: flex;
+    justify-content: space-between;
+}
+.profile .image {
+    width: 50%;
+}
+.profile img {
+    width: 300px;
+    height: 399px;
+}
+.profile .history {
+    width: 50%;
+    text-align: left;
+    padding-left: 10%;
+}
+.profile .history .name {
+    font-size: 15px;
+    padding: 20px 0;
 }
 
 @media screen and (max-width:768px) {
