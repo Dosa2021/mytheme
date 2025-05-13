@@ -104,7 +104,12 @@ main h1 {
     padding-top: 58.4px;
 }
 .single h2 {
-    padding: 15px;
+    font-size: 19px;
+    padding: 40px;
+}
+.single img {
+    width: 640px;
+    height: 480px;
 }
 .single p {
     padding: 15px;
@@ -159,5 +164,10 @@ main h1 {
     }
     .pickup ul {
         justify-content: center;
+    }
+
+    .single img {
+        width: 320px;
+        height: 240px;
     }
 }
