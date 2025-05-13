@@ -13,6 +13,9 @@ Version: 1.0
 }
 
 /* ヘッダ */
+.sp-nav {
+    display: none;
+}
 header {
     position: fixed;
     display: flex;
@@ -111,4 +114,30 @@ main h1 {
 .page {
     text-align: center;
     padding-top: 58.4px;
+}
+
+@media screen and (max-width:768px) {
+    .pc-nav {
+        display: none;
+    }
+    .sp-nav {
+        display: block;
+    }
+    .sp-nav .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 64px;
+    }
+    .sp-nav .show {
+        display: block;
+    }
+    .sp-nav .hide {
+        display: none;
+    }
 }
