@@ -7,3 +7,8 @@ get_header();
     <?php echo do_shortcode('[contact-form-7 id="0bcf742" title="お問い合わせ"]'); ?>
 </div>
 <?php get_footer(); ?>
+<style>
+    .contact form {
+        background-image: url(<?php the_post_thumbnail_url(); ?>);
+    }
+</style>
