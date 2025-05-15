@@ -275,4 +275,27 @@ main h1 {
         padding: 0;
         text-align: center;
     }
+
+    .contact {
+        padding: 58.4px 0px;
+    }
+    .contact form {
+        padding: 20px 10px  ;
+        width: 330px;
+    }
+    .contact label input, .contact label textarea {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .contact label {
+        flex-direction: column;
+    }
+    .contact .screen-reader-response {
+        font-weight: bold;
+        width: 100px;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
 }
