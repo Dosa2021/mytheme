@@ -59,8 +59,8 @@ main h1 {
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 4px;
-    margin-top: 200px;
-    margin-bottom: 270px;
+    margin-top: 230px;
+    margin-bottom: 300px;
 }
 .pickup {
     padding: 50px 50px;
@@ -121,7 +121,6 @@ main h1 {
     padding: 58.4px 50px;
 }
 .profile h2 {
-    font-weight: bold;
     font-size: 19px;
     padding: 40px;
 }
@@ -157,7 +156,6 @@ main h1 {
         font-size: 25px;
         width: 100%;
         text-align: right;
-        margin-bottom: 20px;
     }
     .sp-nav li {
         width: 100%;
@@ -173,7 +171,7 @@ main h1 {
         bottom: 0;
         right: 0;
         left: 0;
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 0.95);
         text-align: center;
         padding: 64px;
     }
@@ -182,6 +180,11 @@ main h1 {
     }
     .sp-nav .hide {
         display: none;
+    }
+
+    main h1 {
+        margin-top: 130px;
+        margin-bottom: 230px;
     }
 
     .pickup {
@@ -194,5 +197,20 @@ main h1 {
     .single img {
         width: 320px;
         height: 240px;
+    }
+
+    .profile {
+        text-align: center;
+        padding: 58.4px 10px;
+    }
+    .profile .introduction {
+        display: block;
+    }
+    .profile .image, .profile .history {
+        width: 100%;
+    }
+    .profile .history {
+        padding: 0;
+        text-align: center;
     }
 }
