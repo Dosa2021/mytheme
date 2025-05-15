@@ -145,6 +145,65 @@ main h1 {
     padding: 20px 0;
 }
 
+/* contactページ */
+.contact {
+    padding: 58.4px 50px;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact h2 {
+    font-size: 19px;
+    padding: 40px;
+}
+.contact form {
+    background-color: #ddd;
+    margin: auto;
+    padding: 20px 10px  ;
+    width: 750px;
+    border-radius: 10px;
+}
+.contact label {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.contact label input, .contact label textarea {
+    background-color: #fff;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.contact label input {
+    height: 25px;
+}
+.contact textarea {
+    height: 125px;
+}
+.contact form > input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 20px 0;
+    border: 1px solid #111111;
+    border-radius: 30px;
+}
+.contact form > input:hover {
+    color: #fff;
+    background-color: #111111;
+}
+.contact .screen-reader-response {
+    font-weight: bold;
+    width: 720px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.contact form .wpcf7-response-output {
+    display: none;
+}
+
 @media screen and (max-width:768px) {
     .pc-nav {
         display: none;
@@ -156,6 +215,9 @@ main h1 {
         font-size: 25px;
         width: 100%;
         text-align: right;
+    }
+    .sp-nav ul {
+        display: block;
     }
     .sp-nav li {
         width: 100%;

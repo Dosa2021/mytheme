@@ -6,7 +6,7 @@
         <title>MyTheme</title>
         <!-- reset.css destyle -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?3">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?4">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
         <script src="<?php echo get_template_directory_uri(); ?>/main.js" type="text/javascript" charset="utf-8"></script>
     </head>
