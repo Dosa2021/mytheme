@@ -223,6 +223,9 @@ main h1 {
     width: 321px;
     margin-bottom: 50px;
 }
+.blog li a:hover {
+    opacity: 0.5;
+}
 .blog li img {
     width: 320px;
     height: 240px;
@@ -332,5 +335,9 @@ main h1 {
         margin: auto;
         text-align: center;
         padding: 10px 0;
+    }
+
+    .blog ul {
+        justify-content: center;
     }
 }
