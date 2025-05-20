@@ -79,7 +79,7 @@ main h1 {
     height: 240px;
 }
 .pickup h2 {
-    font-weight: bold;
+    font-family: serif;
     font-size: 18px;
     padding: 10px;
 }
@@ -88,14 +88,9 @@ main h1 {
 }
 .pickup a {
     display: inline-block;
-    font-size: 15px;
-    border: 1px solid #111111;
-    padding: 5px 10px;
-    margin-top: 10px;
 }
 .pickup a:hover {
-    color: #fff;
-    background-color: #111111;
+    opacity: 0.5;
 }
 
 /* 投稿ページ */
@@ -111,8 +106,16 @@ main h1 {
     width: 640px;
     height: 480px;
 }
-.single p {
+.single > p {
+    overflow: hidden;
+    margin: auto;
+    text-align: left;
+    width: 640px;
     padding: 15px;
+}
+.single > p a {
+    color: #696969;
+    border-bottom: 1px solid #696969;
 }
 
 /* profileページ */
@@ -189,9 +192,8 @@ main h1 {
     text-align: center;
     width: 200px;
     padding: 20px 0;
-    border: 1px solid #111111;
     border-radius: 30px;
-    background: rgb(255 255 255 / 0.2);
+    background: rgb(255 255 255 / 0.1);
     color: #fff;
     font-weight: bold;
 }
@@ -208,6 +210,44 @@ main h1 {
 }
 .contact form .wpcf7-response-output {
     display: none;
+}
+
+/* blogページ */
+.blog {
+    padding: 58.4px 50px;
+}
+.blog h2 {
+    text-align: center;
+    font-size: 19px;
+    padding: 40px;
+}
+.blog ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blog li {
+    text-align: center;
+    width: 321px;
+    margin-bottom: 50px;
+}
+.blog li a:hover {
+    opacity: 0.5;
+}
+.blog li img {
+    width: 320px;
+    height: 240px;
+}
+.blog li .date, .blog li h3 {
+    font-family: serif;
+}
+.blog li .date {
+    font-size: 15px;
+    padding: 5px;
+}
+.blog li h3 {
+    font-size: 18px;
+    padding: 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -262,8 +302,10 @@ main h1 {
         justify-content: center;
     }
 
-    .single img {
+    .single > p, .single img {
         width: 320px;
+    }
+    .single img {
         height: 240px;
     }
 
@@ -303,5 +345,9 @@ main h1 {
         margin: auto;
         text-align: center;
         padding: 10px 0;
+    }
+
+    .blog ul {
+        justify-content: center;
     }
 }
