@@ -106,8 +106,16 @@ main h1 {
     width: 640px;
     height: 480px;
 }
-.single p {
+.single > p {
+    overflow: hidden;
+    margin: auto;
+    text-align: left;
+    width: 640px;
     padding: 15px;
+}
+.single > p a {
+    color: #696969;
+    border-bottom: 1px solid #696969;
 }
 
 /* profileページ */
@@ -294,8 +302,10 @@ main h1 {
         justify-content: center;
     }
 
-    .single img {
+    .single > p, .single img {
         width: 320px;
+    }
+    .single img {
         height: 240px;
     }
 
