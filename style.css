@@ -22,6 +22,7 @@ header {
     background: rgb(255 255 255 / 0.5);
     width: 100%;
     padding: 35px 50px;
+    z-index: 2;
 }
 header ul {
     display: flex;
@@ -96,11 +97,26 @@ main h1 {
 /* 投稿ページ */
 .single {
     text-align: center;
-    padding-top: 58.4px;
+    padding-top: 80px;
+}
+.single .image-box {
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    width: 640px;
+}
+.single .image-box .shadow {
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,12%);
+}
+.single .image-box .shadow img {
+    position: relative;
+    z-index: -1;
 }
 .single h2 {
     font-size: 19px;
     padding: 40px;
+    word-break: break-all;
 }
 .single img {
     width: 640px;
@@ -302,6 +318,9 @@ main h1 {
         justify-content: center;
     }
 
+    .single .image-box {
+        width: 320px;
+    }
     .single > p, .single img {
         width: 320px;
     }
