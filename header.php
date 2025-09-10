@@ -9,6 +9,7 @@
     </head>
     <body>
         <header>
+            <ul><li><a href="<?php echo home_url('/'); ?>" class="home">Home</a></li></ul>
             <?php
             $defaults = array(
                 'container'            => false,

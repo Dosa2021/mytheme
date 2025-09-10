@@ -1,5 +1,5 @@
         <footer>
-            <small>&copy; 2025 dosa</small>
+            <small>&copy; 2025 TATSUYA SUGAWARA</small>
         </footer>
     </body>
 </html>
