@@ -12,6 +12,10 @@ Version: 1.0
     font-family: sans-serif;
 }
 
+.active {
+    color: darkgray;
+}
+
 /* ヘッダ */
 .sp-nav {
     display: none;

@@ -6,8 +6,9 @@
         <title>TATSUYA SUGAWARA</title>
         <!-- reset.css destyle -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?11">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?12">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+        <!-- favicon -->
         <link rel="shortcut icon" href="https://dosaken.org/wp-content/uploads/2025/09/cottage.png">
         <script src="<?php echo get_template_directory_uri(); ?>/main.js" type="text/javascript" charset="utf-8"></script>
     </head>
