@@ -152,15 +152,18 @@ main h1 {
 }
 .profile img {
     width: 300px;
-    height: 399px;
+    height: 482.4px;
 }
 .profile .history {
     width: 50%;
     text-align: left;
     padding-left: 10%;
 }
-.profile .history .name {
+.profile .history .name, .profile .history p {
     font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.profile .history .name {
     padding: 20px 0;
 }
 
