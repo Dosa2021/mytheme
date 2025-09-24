@@ -359,7 +359,7 @@ main h1 {
     .single .image-box {
         width: 320px;
     }
-    .single > p, .single img {
+    .single .content, .single img {
         width: 320px;
     }
     .single img {
