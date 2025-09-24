@@ -4,6 +4,11 @@ get_header();
 ?>
 <div class="blog">
     <h2><?php the_title(); ?></h2>
+    <section>
+        <a href="<?php echo home_url('/'); ?>" class="">Home</a>
+        &nbsp;-&nbsp;
+        <a href="<?php echo home_url('/blog'); ?>">Blog</a>
+    </section>
     <ul>
         <?php $the_query = new WP_Query( array( 'post_type' => 'post' ) ); ?>
         <?php if ( $the_query->have_posts() ) : ?>

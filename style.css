@@ -16,6 +16,14 @@ Version: 1.0
     color: darkgray;
 }
 
+section {
+    font-size: 10px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
 /* ヘッダ */
 .sp-nav {
     display: none;
@@ -119,19 +127,22 @@ main h1 {
 }
 .single h2 {
     font-size: 19px;
-    padding: 40px;
+    padding: 20px;
     word-break: break-all;
 }
 .single img {
     width: 640px;
     height: 480px;
 }
-.single > p {
+.single .content {
     overflow: hidden;
     margin: auto;
     text-align: left;
     width: 640px;
-    padding: 15px;
+    padding: 30px 0;
+}
+.single .content p {
+    font-family: serif;
 }
 .single > p a {
     color: #696969;
@@ -257,6 +268,12 @@ main h1 {
     font-size: 19px;
     padding: 40px;
 }
+.blog section {
+    font-size: 10px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
 .blog ul {
     display: flex;
     flex-wrap: wrap;

@@ -4,6 +4,11 @@ get_header();
 ?>
 <div class="contact">
     <h2><?php the_title(); ?></h2>
+    <section>
+        <a href="<?php echo home_url('/'); ?>" class="">Home</a>
+        &nbsp;-&nbsp;
+        <a href="<?php echo home_url('/contact'); ?>">Contact</a>
+    </section>
     <?php echo do_shortcode('[contact-form-7 id="0bcf742" title="お問い合わせ"]'); ?>
 </div>
 <?php get_footer(); ?>
