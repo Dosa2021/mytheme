@@ -204,10 +204,14 @@ main h1 {
     margin-bottom: 10px;
 }
 .contact label input {
+    font-weight: normal;
     height: 25px;
+    padding: 5px;
 }
 .contact textarea {
+    font-weight: normal;
     height: 125px;
+    padding: 5px
 }
 .contact form > input {
     display: block;
@@ -231,8 +235,17 @@ main h1 {
     text-align: center;
     padding: 10px 0;
 }
+.contact .screen-reader-response ul {
+    display: none;
+}
+
+/* error */
 .contact form .wpcf7-response-output {
     display: none;
+}
+.wpcf7-not-valid-tip {
+    display: block;
+    color: red;
 }
 
 /* blogページ */
