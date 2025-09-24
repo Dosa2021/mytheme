@@ -376,6 +376,10 @@ main h1 {
     .profile .image, .profile .history {
         width: 100%;
     }
+    .profile .image img {
+        width: 150px;
+        height: 241.2px;
+    }
     .profile .history {
         padding: 0;
         text-align: center;
