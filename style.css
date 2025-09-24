@@ -168,6 +168,7 @@ main h1 {
 .profile img {
     width: 300px;
     height: 482.4px;
+    border-radius: 10px;
 }
 .profile .history {
     width: 50%;
