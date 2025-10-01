@@ -367,6 +367,9 @@ main h1 {
         text-align: center;
         padding: 64px;
     }
+    .sp-nav .overlay i {
+        width: 250px;
+    }
     .sp-nav .show {
         display: block;
     }
