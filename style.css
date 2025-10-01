@@ -168,7 +168,6 @@ main h1 {
 .profile img {
     width: 300px;
     height: 482.4px;
-    border-radius: 10px;
 }
 .profile .history {
     width: 50%;
@@ -275,20 +274,20 @@ main h1 {
     margin-bottom: 20px;
 }
 
-.blog ul {
+.blog ul, .portfolio ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.blog li {
+.blog li, .portfolio li {
     text-align: center;
     width: 321px;
     margin-bottom: 50px;
 }
-.blog li a:hover {
+.blog li a:hover, .portfolio li a:hover {
     opacity: 0.5;
 }
-.blog li img {
+.blog li img, .portfolio li img {
     width: 320px;
     height: 240px;
 }
@@ -302,6 +301,16 @@ main h1 {
 .blog li h3 {
     font-size: 18px;
     padding: 5px;
+}
+
+/* portfolioページ */
+.portfolio {
+    padding: 58.4px 50px;
+}
+.portfolio h2 {
+    text-align: center;
+    font-size: 19px;
+    padding: 40px;
 }
 
 @media screen and (max-width:768px) {
