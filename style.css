@@ -23,6 +23,18 @@ section {
     text-align: center;
 }
 
+@keyframes show {
+    0% {
+        transform:translate(0,2em);
+        opacity:0;
+    }
+    100% {
+        transform:translate(0,0);
+        opacity:1;
+        text-shadow:none;
+        visibility: visible;
+    }
+}
 
 /* ヘッダ */
 .sp-nav {
@@ -67,14 +79,19 @@ main {
     padding: 50px 0px;
     padding-top: 108.4px;
 }
+main .title {
+    height: 50px;
+    margin-bottom: 250px;
+}
 main h1 {
     font-family: sans-serif;
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 4px;
     margin-top: 230px;
-    margin-bottom: 300px;
+    animation:show 1s forwards;
 }
+
 .pickup {
     padding: 50px 50px;
 }
@@ -86,6 +103,8 @@ main h1 {
 .pickup li {
     width: 321px;
     margin-bottom: 50px;
+    visibility: hidden;
+    animation:show 1s ease 1s forwards;
 }
 .pickup li img {
     width: 320px;
@@ -319,10 +338,12 @@ main h1 {
     }
     .sp-nav {
         display: block;
+        padding: 35px 0;
+        text-align: center;
     }
     .sp-nav i {
         font-size: 25px;
-        width: 100%;
+        width: 320px;
         text-align: right;
     }
     .sp-nav ul {
@@ -345,6 +366,9 @@ main h1 {
         background: rgba(255, 255, 255, 0.95);
         text-align: center;
         padding: 64px;
+    }
+    .sp-nav .overlay i {
+        width: 250px;
     }
     .sp-nav .show {
         display: block;

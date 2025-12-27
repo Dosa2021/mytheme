@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 <main>
-    <h1>TATSUYA SUGAWARA</h1>
+    <div class="title">
+        <h1>TATSUYA SUGAWARA</h1>
+    </div>
     <div class="pickup">
         <ul>
             <?php $the_query = new WP_Query( array( 'tag' => 'pick_up' ) ); ?>
