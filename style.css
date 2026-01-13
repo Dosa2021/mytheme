@@ -1,5 +1,5 @@
 /*
-Theme Name: MyTheme
+Theme Name: TATSUYA SUGAWARA
 Theme URI:
 Author:
 Author URI:
@@ -12,6 +12,10 @@ Version: 1.0
     font-family: sans-serif;
 }
 
+.active {
+    color: darkgray;
+}
+
 /* ヘッダ */
 .sp-nav {
     display: none;
@@ -22,6 +26,7 @@ header {
     background: rgb(255 255 255 / 0.5);
     width: 100%;
     padding: 35px 50px;
+    z-index: 2;
 }
 header ul {
     display: flex;
@@ -79,7 +84,7 @@ main h1 {
     height: 240px;
 }
 .pickup h2 {
-    font-weight: bold;
+    font-family: serif;
     font-size: 18px;
     padding: 10px;
 }
@@ -88,31 +93,49 @@ main h1 {
 }
 .pickup a {
     display: inline-block;
-    font-size: 15px;
-    border: 1px solid #111111;
-    padding: 5px 10px;
-    margin-top: 10px;
 }
 .pickup a:hover {
-    color: #fff;
-    background-color: #111111;
+    opacity: 0.5;
 }
 
 /* 投稿ページ */
 .single {
     text-align: center;
-    padding-top: 58.4px;
+    padding-top: 80px;
+}
+.single .image-box {
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    width: 640px;
+}
+.single .image-box .shadow {
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,12%);
+}
+.single .image-box .shadow img {
+    position: relative;
+    z-index: -1;
 }
 .single h2 {
     font-size: 19px;
     padding: 40px;
+    word-break: break-all;
 }
 .single img {
     width: 640px;
     height: 480px;
 }
-.single p {
+.single > p {
+    overflow: hidden;
+    margin: auto;
+    text-align: left;
+    width: 640px;
     padding: 15px;
+}
+.single > p a {
+    color: #696969;
+    border-bottom: 1px solid #696969;
 }
 
 /* profileページ */
@@ -133,15 +156,18 @@ main h1 {
 }
 .profile img {
     width: 300px;
-    height: 399px;
+    height: 482.4px;
 }
 .profile .history {
     width: 50%;
     text-align: left;
     padding-left: 10%;
 }
-.profile .history .name {
+.profile .history .name, .profile .history p {
     font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.profile .history .name {
     padding: 20px 0;
 }
 
@@ -178,10 +204,14 @@ main h1 {
     margin-bottom: 10px;
 }
 .contact label input {
+    font-weight: normal;
     height: 25px;
+    padding: 5px;
 }
 .contact textarea {
+    font-weight: normal;
     height: 125px;
+    padding: 5px
 }
 .contact form > input {
     display: block;
@@ -189,9 +219,8 @@ main h1 {
     text-align: center;
     width: 200px;
     padding: 20px 0;
-    border: 1px solid #111111;
     border-radius: 30px;
-    background: rgb(255 255 255 / 0.2);
+    background: rgb(255 255 255 / 0.1);
     color: #fff;
     font-weight: bold;
 }
@@ -206,8 +235,55 @@ main h1 {
     text-align: center;
     padding: 10px 0;
 }
+.contact .screen-reader-response ul {
+    display: none;
+}
+
+/* error */
 .contact form .wpcf7-response-output {
     display: none;
+}
+.wpcf7-not-valid-tip {
+    display: block;
+    color: red;
+}
+
+/* blogページ */
+.blog {
+    padding: 58.4px 50px;
+}
+.blog h2 {
+    text-align: center;
+    font-size: 19px;
+    padding: 40px;
+}
+.blog ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blog li {
+    text-align: center;
+    width: 321px;
+    margin-bottom: 50px;
+}
+.blog li a:hover {
+    opacity: 0.5;
+}
+.blog li img {
+    width: 320px;
+    height: 240px;
+}
+.blog li .date, .blog li h3 {
+    font-family: serif;
+}
+.blog li .date {
+    font-size: 15px;
+    padding: 5px;
+}
+.blog li h3 {
+    font-size: 18px;
+    padding: 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -262,8 +338,13 @@ main h1 {
         justify-content: center;
     }
 
-    .single img {
+    .single .image-box {
         width: 320px;
+    }
+    .single > p, .single img {
+        width: 320px;
+    }
+    .single img {
         height: 240px;
     }
 
@@ -303,5 +384,9 @@ main h1 {
         margin: auto;
         text-align: center;
         padding: 10px 0;
+    }
+
+    .blog ul {
+        justify-content: center;
     }
 }

@@ -12,7 +12,7 @@
             <?php endif; ?>
         </div>
         <div class="history">
-            <div class="name">菅原竜也</div>
+            <div class="name">菅原達也</div>
             <?php the_content(); ?>
         </div>
     </div>
